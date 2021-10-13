@@ -74,10 +74,16 @@ namespace lib60870
 
 				short valueToEncode = (short)value;
 
-				encodedValue[0] = (byte)(valueToEncode % 256);
-				encodedValue[1] = (byte)(valueToEncode / 256);
-			}
-		}
+                Console.WriteLine(valueToEncode); 
+
+                encodedValue[0] = (byte)(valueToEncode % 256);
+                Console.WriteLine(encodedValue[0]);
+                encodedValue[1] = (byte)(valueToEncode / 256);
+                Console.WriteLine(encodedValue[1]);
+                
+
+            }
+        }
 
 		public short ShortValue {
 			get {

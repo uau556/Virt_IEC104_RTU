@@ -66,15 +66,6 @@ namespace Test_RTU
             this.label11 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.checkBox10 = new System.Windows.Forms.CheckBox();
@@ -198,12 +189,23 @@ namespace Test_RTU
             this.label65 = new System.Windows.Forms.Label();
             this.label66 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.checkBox56 = new System.Windows.Forms.CheckBox();
+            this.label87 = new System.Windows.Forms.Label();
+            this.checkBox55 = new System.Windows.Forms.CheckBox();
             this.label71 = new System.Windows.Forms.Label();
             this.label72 = new System.Windows.Forms.Label();
             this.label73 = new System.Windows.Forms.Label();
             this.checkBox53 = new System.Windows.Forms.CheckBox();
             this.checkBox54 = new System.Windows.Forms.CheckBox();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label86 = new System.Windows.Forms.Label();
+            this.checkBox52 = new System.Windows.Forms.CheckBox();
+            this.label85 = new System.Windows.Forms.Label();
+            this.checkBox50 = new System.Windows.Forms.CheckBox();
             this.label69 = new System.Windows.Forms.Label();
             this.label70 = new System.Windows.Forms.Label();
             this.label74 = new System.Windows.Forms.Label();
@@ -224,13 +226,30 @@ namespace Test_RTU
             this.textBox21 = new System.Windows.Forms.TextBox();
             this.label83 = new System.Windows.Forms.Label();
             this.label84 = new System.Windows.Forms.Label();
-            this.label85 = new System.Windows.Forms.Label();
-            this.checkBox50 = new System.Windows.Forms.CheckBox();
-            this.label86 = new System.Windows.Forms.Label();
-            this.checkBox52 = new System.Windows.Forms.CheckBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label89 = new System.Windows.Forms.Label();
+            this.label88 = new System.Windows.Forms.Label();
+            this.label90 = new System.Windows.Forms.Label();
+            this.label92 = new System.Windows.Forms.Label();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.checkBox57 = new System.Windows.Forms.CheckBox();
+            this.label91 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.checkBox58 = new System.Windows.Forms.CheckBox();
+            this.checkBox59 = new System.Windows.Forms.CheckBox();
+            this.checkBox60 = new System.Windows.Forms.CheckBox();
+            this.checkBox61 = new System.Windows.Forms.CheckBox();
+            this.label93 = new System.Windows.Forms.Label();
+            this.label94 = new System.Windows.Forms.Label();
+            this.label95 = new System.Windows.Forms.Label();
+            this.label96 = new System.Windows.Forms.Label();
+            this.checkBox62 = new System.Windows.Forms.CheckBox();
+            this.label97 = new System.Windows.Forms.Label();
+            this.label98 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -242,6 +261,7 @@ namespace Test_RTU
             this.panel11.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel13.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label4
@@ -257,13 +277,13 @@ namespace Test_RTU
             // iec104Box
             // 
             this.iec104Box.Font = new System.Drawing.Font("Courier New", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iec104Box.Location = new System.Drawing.Point(466, 431);
+            this.iec104Box.Location = new System.Drawing.Point(466, 503);
             this.iec104Box.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.iec104Box.Multiline = true;
             this.iec104Box.Name = "iec104Box";
             this.iec104Box.ReadOnly = true;
             this.iec104Box.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.iec104Box.Size = new System.Drawing.Size(877, 228);
+            this.iec104Box.Size = new System.Drawing.Size(877, 156);
             this.iec104Box.TabIndex = 32;
             // 
             // checkBox1
@@ -468,95 +488,6 @@ namespace Test_RTU
             this.label2.TabIndex = 48;
             this.label2.Text = "Binaire input";
             // 
-            // panel2
-            // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.label7);
-            this.panel2.Controls.Add(this.checkBox9);
-            this.panel2.Controls.Add(this.textBox4);
-            this.panel2.Controls.Add(this.textBox3);
-            this.panel2.Controls.Add(this.textBox2);
-            this.panel2.Controls.Add(this.button4);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Location = new System.Drawing.Point(466, 31);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(421, 121);
-            this.panel2.TabIndex = 50;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(340, 78);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(24, 16);
-            this.label7.TabIndex = 52;
-            this.label7.Text = "ms";
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(147, 77);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(91, 20);
-            this.checkBox9.TabIndex = 51;
-            this.checkBox9.Text = "Contineous";
-            this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(263, 75);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(56, 23);
-            this.textBox4.TabIndex = 51;
-            this.textBox4.Text = "1000";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(100, 38);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(84, 23);
-            this.textBox3.TabIndex = 52;
-            this.textBox3.Text = "101";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(9, 38);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(85, 23);
-            this.textBox2.TabIndex = 51;
-            this.textBox2.Text = "100";
-            // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(9, 72);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(114, 31);
-            this.button4.TabIndex = 51;
-            this.button4.Text = "Send meting";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(5, 7);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(104, 16);
-            this.label5.TabIndex = 49;
-            this.label5.Text = "100                  101";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(223, 11);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(129, 16);
-            this.label6.TabIndex = 48;
-            this.label6.Text = "Analoge input Scaled";
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -697,7 +628,7 @@ namespace Test_RTU
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(84, 23);
             this.textBox6.TabIndex = 52;
-            this.textBox6.Text = "1";
+            this.textBox6.Text = "0,9";
             // 
             // textBox7
             // 
@@ -705,7 +636,7 @@ namespace Test_RTU
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(85, 23);
             this.textBox7.TabIndex = 51;
-            this.textBox7.Text = "-1";
+            this.textBox7.Text = "0";
             // 
             // panel4
             // 
@@ -718,7 +649,7 @@ namespace Test_RTU
             this.panel4.Controls.Add(this.button6);
             this.panel4.Controls.Add(this.label19);
             this.panel4.Controls.Add(this.label20);
-            this.panel4.Location = new System.Drawing.Point(466, 158);
+            this.panel4.Location = new System.Drawing.Point(466, 30);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(421, 121);
             this.panel4.TabIndex = 62;
@@ -786,7 +717,7 @@ namespace Test_RTU
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(84, 23);
             this.textBox9.TabIndex = 52;
-            this.textBox9.Text = "101";
+            this.textBox9.Text = "101,5";
             // 
             // textBox10
             // 
@@ -794,7 +725,7 @@ namespace Test_RTU
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(85, 23);
             this.textBox10.TabIndex = 51;
-            this.textBox10.Text = "100";
+            this.textBox10.Text = "100,2";
             // 
             // panel5
             // 
@@ -807,7 +738,7 @@ namespace Test_RTU
             this.panel5.Controls.Add(this.button7);
             this.panel5.Controls.Add(this.label22);
             this.panel5.Controls.Add(this.label23);
-            this.panel5.Location = new System.Drawing.Point(466, 285);
+            this.panel5.Location = new System.Drawing.Point(466, 157);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(421, 121);
             this.panel5.TabIndex = 53;
@@ -1033,6 +964,8 @@ namespace Test_RTU
             // checkBox20
             // 
             this.checkBox20.AutoSize = true;
+            this.checkBox20.Checked = true;
+            this.checkBox20.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox20.Location = new System.Drawing.Point(106, 26);
             this.checkBox20.Name = "checkBox20";
             this.checkBox20.Size = new System.Drawing.Size(15, 14);
@@ -1513,6 +1446,8 @@ namespace Test_RTU
             // checkBox35
             // 
             this.checkBox35.AutoSize = true;
+            this.checkBox35.Checked = true;
+            this.checkBox35.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox35.Location = new System.Drawing.Point(160, 26);
             this.checkBox35.Name = "checkBox35";
             this.checkBox35.Size = new System.Drawing.Size(15, 14);
@@ -1691,7 +1626,7 @@ namespace Test_RTU
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(142, 16);
             this.label44.TabIndex = 49;
-            this.label44.Text = "220             t/m           244";
+            this.label44.Text = "220             t/m           243";
             // 
             // label45
             // 
@@ -1712,7 +1647,7 @@ namespace Test_RTU
             this.panel9.Controls.Add(this.textBox18);
             this.panel9.Controls.Add(this.label65);
             this.panel9.Controls.Add(this.label66);
-            this.panel9.Location = new System.Drawing.Point(26, 483);
+            this.panel9.Location = new System.Drawing.Point(525, 518);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(421, 85);
             this.panel9.TabIndex = 54;
@@ -1782,15 +1717,76 @@ namespace Test_RTU
             // panel10
             // 
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel10.Controls.Add(this.label6);
+            this.panel10.Controls.Add(this.label5);
+            this.panel10.Controls.Add(this.checkBox9);
+            this.panel10.Controls.Add(this.checkBox56);
+            this.panel10.Controls.Add(this.label87);
+            this.panel10.Controls.Add(this.checkBox55);
             this.panel10.Controls.Add(this.label71);
             this.panel10.Controls.Add(this.label72);
             this.panel10.Controls.Add(this.label73);
             this.panel10.Controls.Add(this.checkBox53);
             this.panel10.Controls.Add(this.checkBox54);
-            this.panel10.Location = new System.Drawing.Point(26, 307);
+            this.panel10.Location = new System.Drawing.Point(26, 391);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(421, 62);
             this.panel10.TabIndex = 76;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(71, 42);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(65, 16);
+            this.label6.TabIndex = 56;
+            this.label6.Text = "Ret. Value";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(77, 5);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(22, 16);
+            this.label5.TabIndex = 59;
+            this.label5.Text = "51";
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Location = new System.Drawing.Point(110, 24);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(48, 20);
+            this.checkBox9.TabIndex = 61;
+            this.checkBox9.Text = "       ";
+            this.checkBox9.UseVisualStyleBackColor = true;
+            // 
+            // checkBox56
+            // 
+            this.checkBox56.AutoSize = true;
+            this.checkBox56.Location = new System.Drawing.Point(82, 27);
+            this.checkBox56.Name = "checkBox56";
+            this.checkBox56.Size = new System.Drawing.Size(15, 14);
+            this.checkBox56.TabIndex = 60;
+            this.checkBox56.UseVisualStyleBackColor = true;
+            // 
+            // label87
+            // 
+            this.label87.AutoSize = true;
+            this.label87.Location = new System.Drawing.Point(173, 12);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(32, 16);
+            this.label87.TabIndex = 57;
+            this.label87.Text = "SBO";
+            // 
+            // checkBox55
+            // 
+            this.checkBox55.AutoSize = true;
+            this.checkBox55.Location = new System.Drawing.Point(178, 34);
+            this.checkBox55.Name = "checkBox55";
+            this.checkBox55.Size = new System.Drawing.Size(15, 14);
+            this.checkBox55.TabIndex = 58;
+            this.checkBox55.UseVisualStyleBackColor = true;
             // 
             // label71
             // 
@@ -1841,6 +1837,7 @@ namespace Test_RTU
             // panel11
             // 
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel11.Controls.Add(this.label7);
             this.panel11.Controls.Add(this.label86);
             this.panel11.Controls.Add(this.checkBox52);
             this.panel11.Controls.Add(this.label85);
@@ -1849,10 +1846,55 @@ namespace Test_RTU
             this.panel11.Controls.Add(this.label70);
             this.panel11.Controls.Add(this.label74);
             this.panel11.Controls.Add(this.checkBox51);
-            this.panel11.Location = new System.Drawing.Point(26, 238);
+            this.panel11.Location = new System.Drawing.Point(26, 322);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(421, 62);
             this.panel11.TabIndex = 77;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(71, 42);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(65, 16);
+            this.label7.TabIndex = 62;
+            this.label7.Text = "Ret. Value";
+            // 
+            // label86
+            // 
+            this.label86.AutoSize = true;
+            this.label86.Location = new System.Drawing.Point(175, 5);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(32, 16);
+            this.label86.TabIndex = 55;
+            this.label86.Text = "SBO";
+            // 
+            // checkBox52
+            // 
+            this.checkBox52.AutoSize = true;
+            this.checkBox52.Location = new System.Drawing.Point(180, 27);
+            this.checkBox52.Name = "checkBox52";
+            this.checkBox52.Size = new System.Drawing.Size(15, 14);
+            this.checkBox52.TabIndex = 56;
+            this.checkBox52.UseVisualStyleBackColor = true;
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.Location = new System.Drawing.Point(77, 5);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(22, 16);
+            this.label85.TabIndex = 53;
+            this.label85.Text = "41";
+            // 
+            // checkBox50
+            // 
+            this.checkBox50.AutoSize = true;
+            this.checkBox50.Location = new System.Drawing.Point(82, 27);
+            this.checkBox50.Name = "checkBox50";
+            this.checkBox50.Size = new System.Drawing.Size(15, 14);
+            this.checkBox50.TabIndex = 54;
+            this.checkBox50.UseVisualStyleBackColor = true;
             // 
             // label69
             // 
@@ -1900,7 +1942,7 @@ namespace Test_RTU
             this.panel12.Controls.Add(this.textBox19);
             this.panel12.Controls.Add(this.label78);
             this.panel12.Controls.Add(this.label79);
-            this.panel12.Location = new System.Drawing.Point(26, 392);
+            this.panel12.Location = new System.Drawing.Point(26, 476);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(421, 85);
             this.panel12.TabIndex = 56;
@@ -1976,7 +2018,7 @@ namespace Test_RTU
             this.panel13.Controls.Add(this.textBox21);
             this.panel13.Controls.Add(this.label83);
             this.panel13.Controls.Add(this.label84);
-            this.panel13.Location = new System.Drawing.Point(26, 574);
+            this.panel13.Location = new System.Drawing.Point(26, 576);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(421, 85);
             this.panel13.TabIndex = 78;
@@ -2042,47 +2084,239 @@ namespace Test_RTU
             this.label84.TabIndex = 48;
             this.label84.Text = "Setpoint Float";
             // 
-            // label85
+            // panel2
             // 
-            this.label85.AutoSize = true;
-            this.label85.Location = new System.Drawing.Point(32, 5);
-            this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(22, 16);
-            this.label85.TabIndex = 53;
-            this.label85.Text = "41";
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.label89);
+            this.panel2.Controls.Add(this.label88);
+            this.panel2.Controls.Add(this.label90);
+            this.panel2.Controls.Add(this.label92);
+            this.panel2.Location = new System.Drawing.Point(902, 398);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(421, 85);
+            this.panel2.TabIndex = 57;
             // 
-            // checkBox50
+            // label89
             // 
-            this.checkBox50.AutoSize = true;
-            this.checkBox50.Location = new System.Drawing.Point(37, 27);
-            this.checkBox50.Name = "checkBox50";
-            this.checkBox50.Size = new System.Drawing.Size(15, 14);
-            this.checkBox50.TabIndex = 54;
-            this.checkBox50.UseVisualStyleBackColor = true;
+            this.label89.AutoSize = true;
+            this.label89.Location = new System.Drawing.Point(106, 41);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(60, 16);
+            this.label89.TabIndex = 56;
+            this.label89.Text = "Recieved";
             // 
-            // label86
+            // label88
             // 
-            this.label86.AutoSize = true;
-            this.label86.Location = new System.Drawing.Point(98, 5);
-            this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(32, 16);
-            this.label86.TabIndex = 55;
-            this.label86.Text = "SBO";
+            this.label88.AutoSize = true;
+            this.label88.Location = new System.Drawing.Point(6, 11);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(29, 16);
+            this.label88.TabIndex = 55;
+            this.label88.Text = "600";
             // 
-            // checkBox52
+            // label90
             // 
-            this.checkBox52.AutoSize = true;
-            this.checkBox52.Location = new System.Drawing.Point(103, 27);
-            this.checkBox52.Name = "checkBox52";
-            this.checkBox52.Size = new System.Drawing.Size(15, 14);
-            this.checkBox52.TabIndex = 56;
-            this.checkBox52.UseVisualStyleBackColor = true;
+            this.label90.AutoSize = true;
+            this.label90.Location = new System.Drawing.Point(6, 41);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(89, 16);
+            this.label90.TabIndex = 53;
+            this.label90.Text = "Recieved Step";
+            // 
+            // label92
+            // 
+            this.label92.AutoSize = true;
+            this.label92.Location = new System.Drawing.Point(223, 11);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(113, 16);
+            this.label92.TabIndex = 48;
+            this.label92.Text = "TapPos Command";
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Checked = true;
+            this.radioButton1.Location = new System.Drawing.Point(1329, 31);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(14, 13);
+            this.radioButton1.TabIndex = 79;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(1329, 122);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(14, 13);
+            this.radioButton2.TabIndex = 80;
+            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(1329, 242);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(14, 13);
+            this.radioButton3.TabIndex = 81;
+            this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
+            // 
+            // checkBox57
+            // 
+            this.checkBox57.AutoSize = true;
+            this.checkBox57.Location = new System.Drawing.Point(471, 325);
+            this.checkBox57.Name = "checkBox57";
+            this.checkBox57.Size = new System.Drawing.Size(125, 20);
+            this.checkBox57.TabIndex = 107;
+            this.checkBox57.Text = "No conformation";
+            this.checkBox57.UseVisualStyleBackColor = true;
+            // 
+            // label91
+            // 
+            this.label91.AutoSize = true;
+            this.label91.Location = new System.Drawing.Point(533, 351);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(156, 16);
+            this.label91.TabIndex = 108;
+            this.label91.Text = "ms between conformation";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(471, 349);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(56, 23);
+            this.textBox2.TabIndex = 107;
+            this.textBox2.Text = "1000";
+            // 
+            // checkBox58
+            // 
+            this.checkBox58.AutoSize = true;
+            this.checkBox58.Location = new System.Drawing.Point(477, 430);
+            this.checkBox58.Name = "checkBox58";
+            this.checkBox58.Size = new System.Drawing.Size(15, 14);
+            this.checkBox58.TabIndex = 112;
+            this.checkBox58.UseVisualStyleBackColor = true;
+            this.checkBox58.CheckedChanged += new System.EventHandler(this.checkBox58_CheckedChanged);
+            // 
+            // checkBox59
+            // 
+            this.checkBox59.AutoSize = true;
+            this.checkBox59.Location = new System.Drawing.Point(501, 430);
+            this.checkBox59.Name = "checkBox59";
+            this.checkBox59.Size = new System.Drawing.Size(15, 14);
+            this.checkBox59.TabIndex = 111;
+            this.checkBox59.UseVisualStyleBackColor = true;
+            // 
+            // checkBox60
+            // 
+            this.checkBox60.AutoSize = true;
+            this.checkBox60.Location = new System.Drawing.Point(527, 430);
+            this.checkBox60.Name = "checkBox60";
+            this.checkBox60.Size = new System.Drawing.Size(15, 14);
+            this.checkBox60.TabIndex = 110;
+            this.checkBox60.UseVisualStyleBackColor = true;
+            // 
+            // checkBox61
+            // 
+            this.checkBox61.AutoSize = true;
+            this.checkBox61.Location = new System.Drawing.Point(551, 430);
+            this.checkBox61.Name = "checkBox61";
+            this.checkBox61.Size = new System.Drawing.Size(15, 14);
+            this.checkBox61.TabIndex = 109;
+            this.checkBox61.UseVisualStyleBackColor = true;
+            // 
+            // label93
+            // 
+            this.label93.AutoSize = true;
+            this.label93.Location = new System.Drawing.Point(547, 411);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(21, 16);
+            this.label93.TabIndex = 116;
+            this.label93.Text = "BL";
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Location = new System.Drawing.Point(523, 411);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(22, 16);
+            this.label94.TabIndex = 115;
+            this.label94.Text = "SB";
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Location = new System.Drawing.Point(497, 411);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(25, 16);
+            this.label95.TabIndex = 114;
+            this.label95.Text = "NT";
+            // 
+            // label96
+            // 
+            this.label96.AutoSize = true;
+            this.label96.Location = new System.Drawing.Point(473, 411);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(19, 16);
+            this.label96.TabIndex = 113;
+            this.label96.Text = "IV";
+            // 
+            // checkBox62
+            // 
+            this.checkBox62.AutoSize = true;
+            this.checkBox62.Location = new System.Drawing.Point(601, 430);
+            this.checkBox62.Name = "checkBox62";
+            this.checkBox62.Size = new System.Drawing.Size(15, 14);
+            this.checkBox62.TabIndex = 117;
+            this.checkBox62.UseVisualStyleBackColor = true;
+            // 
+            // label97
+            // 
+            this.label97.AutoSize = true;
+            this.label97.Location = new System.Drawing.Point(584, 411);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(47, 16);
+            this.label97.TabIndex = 118;
+            this.label97.Text = "Inv/OV";
+            // 
+            // label98
+            // 
+            this.label98.AutoSize = true;
+            this.label98.Location = new System.Drawing.Point(473, 391);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(71, 16);
+            this.label98.TabIndex = 119;
+            this.label98.Text = "Quality bits";
+            this.label98.Click += new System.EventHandler(this.label98_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1385, 752);
+            this.ControlBox = false;
+            this.Controls.Add(this.label98);
+            this.Controls.Add(this.checkBox62);
+            this.Controls.Add(this.label97);
+            this.Controls.Add(this.checkBox58);
+            this.Controls.Add(this.checkBox59);
+            this.Controls.Add(this.checkBox60);
+            this.Controls.Add(this.checkBox61);
+            this.Controls.Add(this.label93);
+            this.Controls.Add(this.label94);
+            this.Controls.Add(this.label95);
+            this.Controls.Add(this.label96);
+            this.Controls.Add(this.label91);
+            this.Controls.Add(this.checkBox57);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.radioButton3);
+            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.iec104Box);
             this.Controls.Add(this.panel13);
             this.Controls.Add(this.panel12);
             this.Controls.Add(this.panel11);
@@ -2098,7 +2332,6 @@ namespace Test_RTU
             this.Controls.Add(this.checkBox10);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.checkBox8);
@@ -2112,7 +2345,6 @@ namespace Test_RTU
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.iec104Box);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
@@ -2123,8 +2355,6 @@ namespace Test_RTU
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
@@ -2147,6 +2377,8 @@ namespace Test_RTU
             this.panel12.PerformLayout();
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2166,15 +2398,6 @@ namespace Test_RTU
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.CheckBox checkBox10;
@@ -2333,5 +2556,34 @@ namespace Test_RTU
         private System.Windows.Forms.CheckBox checkBox52;
         private System.Windows.Forms.Label label85;
         private System.Windows.Forms.CheckBox checkBox50;
+        private System.Windows.Forms.Label label87;
+        private System.Windows.Forms.CheckBox checkBox55;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.CheckBox checkBox9;
+        private System.Windows.Forms.CheckBox checkBox56;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label88;
+        private System.Windows.Forms.Label label90;
+        private System.Windows.Forms.Label label92;
+        private System.Windows.Forms.Label label89;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.CheckBox checkBox57;
+        private System.Windows.Forms.Label label91;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.CheckBox checkBox58;
+        private System.Windows.Forms.CheckBox checkBox59;
+        private System.Windows.Forms.CheckBox checkBox60;
+        private System.Windows.Forms.CheckBox checkBox61;
+        private System.Windows.Forms.Label label93;
+        private System.Windows.Forms.Label label94;
+        private System.Windows.Forms.Label label95;
+        private System.Windows.Forms.Label label96;
+        private System.Windows.Forms.CheckBox checkBox62;
+        private System.Windows.Forms.Label label97;
+        private System.Windows.Forms.Label label98;
     }
 }
